@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Wallstreet Child
+ Theme URI:    http://example.com/wallstreet-child/
+ Description:  Wallstreet Child Theme
+ Author:       Magnus Andreasen
+ Author URI:   http://example.com
+ Template:     wallstreet
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  wallstreet-child
+*/
+
+body {
+    background-color: #2a2c33;
+    color: #373941;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin: 0;
+}
+
+.pagetitle-separator {
+    background: #3c5f94 !important;
+    height: 1px;
+    margin: 23px auto 45px;
+    width: 250px;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: #3c5f94;
+    color: #ffffff !important;
+}
+
+.blog-post-title {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 30px 30px;
+    background-color: #ffffff;
+    border-color: #373941;
+}
+
+.blog-post-meta a {
+    font-size: 12px;
+    padding: 5px 20px 5px 0;
+    transition: all 0.3s ease 0s;
+    color: #373941;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0px;
+    padding: 0px;
+}
